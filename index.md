@@ -1,10 +1,10 @@
 # Paikchu Note
 
-### Database
-[Normal Form](NormalForm.md)
+## Database
+[Normal Form](NormalForm.md)  
 
-### Leetcode
-[1.两数之和](Leetcode/1.两数之和.md)
+## Leetcode
+[1.两数之和](Leetcode/1.两数之和.md)  
 [2.两数相加](Leetcode/2.两数相加.md)  
 [4.Selection Sort](Leetcode/4.Selection_Sort.md)  
 [5.Longest Palindromic Substring](Leetcode/5.Longest_Palindromic_Substring.md)  
@@ -22,45 +22,40 @@
 [101.Symmetric Tree](Leetcode/101.Symmetric_Tree.md)  
 [102.Binary Tree Level Order Traversal](Leetcode/102.Binary_Tree_Level_Order_Traversal.md)  
 [104.Maximum Depth of Binary Tree](Leetcode/104.Maximum_Depth_of_Binary_Tree.md)  
+[110.Balanced_Binary_Tree.md](Leetcode/110.Balanced_Binary_Tree.md)  
+[111.Minimum_Depth_of_Binary_Tree.md](Leetcode/111.Minimum_Depth_of_Binary_Tree.md)  
+[112.Path_Sum.md](Leetcode/112.Path_Sum.md)  
+[113.Path_Sum_II.md](Leetcode/113.Path_Sum_II.md)  
+[121.买卖股票的最佳时机.md](Leetcode/121.买卖股票的最佳时机.md)  
+[144.Binary_Tree_Preorder_Traversal.md](Leetcode/144.Binary_Tree_Preorder_Traversal.md)  
+[145.Binary_Tree_Postorder_Traversal.md](Leetcode/145.Binary_Tree_Postorder_Traversal.md)  
+[147.对链表进行插入排序.md](Leetcode/147.对链表进行插入排序.md)  
+[189.轮转数组.md](Leetcode/189.轮转数组.md)  
+[205.Isomorphic_Strings.md](Leetcode/205.Isomorphic_Strings.md)  
+[206.Reverse_Linked_List.md](Leetcode/206.Reverse_Linked_List.md)  
+[209.长度最小的子数组(未解决).md](Leetcode/209.长度最小的子数组(未解决).md)  
+[226.Invert_Binary_Tree.md](Leetcode/226.Invert_Binary_Tree.md)  
+[257.Binary_Tree_Paths.md](Leetcode/257.Binary_Tree_Paths.md)  
+[278.第一个错误的版本.md](Leetcode/278.第一个错误的版本.md)  
+[392.Is_Subsequence.md](Leetcode/392.Is_Subsequence.md)  
+[563.Binary_Tree_Tilt.md](Leetcode/563.Binary_Tree_Tilt.md)  
+[624.Fibonacci_Number_Lite.md](Leetcode/624.Fibonacci_Number_Lite.md)  
+[671.Second_Minimum_Node_In_a_Binary_Tree.md](Leetcode/671.Second_Minimum_Node_In_a_Binary_Tree.md)  
+[704.二分查找.md](Leetcode/704.二分查找.md)  
+[713.Subarray_Product_Less_Than_K.md](Leetcode/713.Subarray_Product_Less_Than_K.md)  
+[933.Number_of_Recent_calls.md](Leetcode/933.Number_of_Recent_calls.md)  
+[942.DI_String_Match.md](Leetcode/942.DI_String_Match.md)  
+[977.有序数组的平方.md](Leetcode/977.有序数组的平方.md)  
+[1305.All_Elements_in_Two_Binary_Search_Trees.md](Leetcode/1305.All_Elements_in_Two_Binary_Search_Trees.md)  
+[1480.Running_Sum_of_1d_Array.md](Leetcode/1480.Running_Sum_of_1d_Array.md)  
+[1823.Find_the_Winner_of_the_Circular_Game.md](Leetcode/1823.Find_the_Winner_of_the_Circular_Game.md)  
+[6057.统计值等于子树平均值的节点数.md](Leetcode/6057.统计值等于子树平均值的节点数.md)  
+[Group_Anagrams.md](Leetcode/Group_Anagrams.md)  
+[Longest_Substring_Without_Repeating_Characters.md](Leetcode/Longest_Substring_Without_Repeating_Characters.md)  
+[Min_Stack.md](Leetcode/Min_Stack.md)  
+[Search_a_2D_Matrix_II.md](Leetcode/Search_a_2D_Matrix_II.md)  
+[Valid_Parentheses.md](Leetcode/Valid_Parentheses.md)  
 
-Leetcode/101 Symmetric Tree 50ee9c9913e7444e887a17a667e36791.md
-Leetcode/102 Binary Tree Level Order Traversal bb31e38830264ce6b228737eab06e8fd.md
-Leetcode/104 Maximum Depth of Binary Tree c7b7ecb4c16d4cb1bd1fa8de517dc964.md
-Leetcode/110 Balanced Binary Tree 44630da752f849ecb357ee936c62fc26.md
-Leetcode/111 Minimum Depth of Binary Tree b51376eea48040aea8e7159635743861.md
-Leetcode/112 Path Sum 0a5b58d86b274035bf26feb487fa9fb8.md
-Leetcode/113 Path Sum II f125e1cfd9eb4de2bc444be4c87a7017.md
-Leetcode/121 买卖股票的最佳时机 83be11b9414f4b94b1bc8694ddf70f62.md
-Leetcode/144 Binary Tree Preorder Traversal aabb7768b664451a9477c20130f5af10.md
-Leetcode/145 Binary Tree Postorder Traversal f1b9f8072a604e8fa461831720c3371d.md
-Leetcode/147 对链表进行插入排序 49c07b16f8db465e98c513e8a3610fdc.md
-Leetcode/189 轮转数组 48e84dc021a44ad38dc1ece38c3cf335.md
-Leetcode/205 Isomorphic Strings 091fcb079d5e42d0a084a961fbd36f91.md
-Leetcode/206 Reverse Linked List b269cb87e7b54cebbaca57405beaebc8.md
-Leetcode/209 长度最小的子数组(未解决) 655924eab1624239a55899f6db7925ad.md
-Leetcode/226 Invert Binary Tree b1d2e6b72f8d42348f1e7565fa6f6453.md
-Leetcode/257 Binary Tree Paths 26abe1a78da446fabed4d6333dc05d17.md
-Leetcode/278 第一个错误的版本 dcde68b2f77841ff8ebadeabfd2f9e28.md
-Leetcode/392 Is Subsequence 935aa2041dcf4d5ba286aaf18854f5d1.md
-Leetcode/563 Binary Tree Tilt 21a6d0debbdf453e8b42cd16a833ccde.md
-Leetcode/624 Fibonacci Number Lite 6a983d6414954f1da14ae84c1eec0808.md
-Leetcode/671 Second Minimum Node In a Binary Tree 8353132ff79b4c149a018883e12f320d.md
-Leetcode/704 二分查找 5ae1d340b59e4de98d44d0c5223a02bb.md
-Leetcode/713 Subarray Product Less Than K c93d65be599348aa82b92c4ef79cbc73.md
-Leetcode/933 Number of Recent calls ae339e2c9a5442b590913bb3775f2feb.md
-Leetcode/942 DI String Match a522cc0beebd4f06975e0194361d89af.md
-Leetcode/977 有序数组的平方 aa1faf8b59c74fc08364c7c5cd8711a7.md
-Leetcode/1305 All Elements in Two Binary Search Trees 2f446f464f97421392dc1b6cb9e8d936.md
-Leetcode/1480 Running Sum of 1d Array f5a0a585ee6b4762be62273f97886394.md
-Leetcode/1823 Find the Winner of the Circular Game 90308208e08249078bbd665cf137542d.md
-Leetcode/6057 统计值等于子树平均值的节点数 2fc16cc4ebdf432b914de85a5892adea.md
-Leetcode/Group Anagrams 09f914e1f45542deb76157af22c70e7e.md
-Leetcode/Longest Substring Without Repeating Characters 7e7697ea66f646d8a5e512641eb8b99d.md
-Leetcode/Min Stack 55dc5477d21d4b589998a82f37fbea9b.md
-Leetcode/Search a 2D Matrix II b570db8ed68749d4824c4cb20500b6a9.md
-Leetcode/Valid Parentheses ec69b05d5b034ee69c04401621b8ed03.md
-
-
-### 面经
-[小米笔试](小米面经/小米2020校招软件开发工程师.md)
+## 面经
+[小米笔试](小米面经/小米2020校招软件开发工程师.md)  
 
