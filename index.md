@@ -4,21 +4,23 @@
 [Normal Form](NormalForm.md)
 
 ### Leetcode
-[两数之和](Leetcode/1.两数之和.md)
-Leetcode/2 两数相加 02e192e46f594b639753c9e27d05d331.md
-Leetcode/4 Selection Sort 8b2d4935f3ab485ba9b39f15362a7e84.md
-Leetcode/5 Longest Palindromic Substring 2341f2e028fb47eb9ea34816c4b50bfd.md
-Leetcode/13 a to the power of b 1cf924abd4ed41bd82d96df047dbc2d6.md
-Leetcode/19 删除链表的倒数第n个节点 9e6c9e26d5ec4869853177fff5105bbd.md
-Leetcode/21 合并两个有序链表 9e79b11674184a3983b9662d02f83891.md
-Leetcode/24 两两交换链表中的节点 212f205ad2ea4c198073cb57f9c7ab6e.md
-Leetcode/26 删除有序数组中的重复项 8fe9fde0b59a4935bff2ee4be3406284.md
-Leetcode/35 搜索插入位置 0f3098b3a21f4bbf894b8f186700871b.md
-Leetcode/46 Permutation 全连接 e84a402a2e294344b56e1fb34414fe98.md
-Leetcode/86 分隔链表 9769103f6d614fe6b7af32106e8e8358.md
-Leetcode/92 Reverse Linked List II 1beba355add24921950c94891744a56d.md
-Leetcode/94 Binary Tree Inorder Traversal 4957fcea515544789e7248c4bc436a26.md
-Leetcode/100 Same Tree 22db436e63ec424c83c3f2510d371e11.md
+[1.两数之和](Leetcode/1.两数之和.md)
+[2.两数相加](Leetcode/2.两数相加.md)
+[4.Selection Sort](Leetcode/4.Selection_Sort.md)
+[5.Longest Palindromic Substring](Leetcode/5.Longest_Palindromic_Substring.md)
+[13.a to the power of b](Leetcode/13.a_to_the power_of_b.md)
+[19.删除链表的倒数第n个节点](Leetcode/19.删除链表的倒数第n个节点.md)
+[21.合并两个有序链表](Leetcode/21.合并两个有序链表.md)
+[24.两两交换链表中的节点](Leetcode/24.两两交换链表中的节点.md)
+[26.删除有序数组中的重复项](Leetcode/26.删除有序数组中的重复项.md)
+[35.搜索插入位置](Leetcode/35.搜索插入位置.md)
+[46.Permutation](Leetcode/46.Permutation.md)
+[86.分隔链表](Leetcode/86.分隔链表.md)
+[92.Reverse Linked List II](Leetcode/92.Reverse_Linked_List_II.md)
+[94.Binary Tree Inorder Traversal](Leetcode/94.Binary_Tree_Inorder_Traversal.md)
+[100 Same_Tree]Leetcode/(100.Same_Tree.md)
+
+
 Leetcode/101 Symmetric Tree 50ee9c9913e7444e887a17a667e36791.md
 Leetcode/102 Binary Tree Level Order Traversal bb31e38830264ce6b228737eab06e8fd.md
 Leetcode/104 Maximum Depth of Binary Tree c7b7ecb4c16d4cb1bd1fa8de517dc964.md
