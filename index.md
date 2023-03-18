@@ -1,9 +1,11 @@
 # Paikchu Note
 
 ## Database
+
 [Normal Form](NormalForm.md)  
 
 ## Leetcode
+
 [1.两数之和](Leetcode/1.两数之和.md)  
 [2.两数相加](Leetcode/2.两数相加.md)  
 [4.Selection Sort](Leetcode/4.Selection_Sort.md)  
@@ -57,9 +59,10 @@
 [Valid_Parentheses.md](Leetcode/Valid_Parentheses.md)  
 
 ## Summary
+
 [Binary Search](Binary Search ff0a4476e7984442a09b45be293c7132.md)  
 [Binary Search Tree](Binary Search Tree 9988779d2b4448db874db5f74ef2d48d.md)  
 
 ## 面经
-[小米笔试](小米面经/小米2020校招软件开发工程师.md)  
 
+[小米笔试](小米面经/小米2020校招软件开发工程师.md)  
