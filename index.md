@@ -56,9 +56,9 @@
 [Search_a_2D_Matrix_II.md](Leetcode/Search_a_2D_Matrix_II.md)  
 [Valid_Parentheses.md](Leetcode/Valid_Parentheses.md)  
 
-##Summary
-[Binary Search](Binary Search ff0a4476e7984442a09b45be293c7132.md)
-
+## Summary
+[Binary Search](Binary Search ff0a4476e7984442a09b45be293c7132.md)  
+[Binary Search Tree](Binary Search Tree 9988779d2b4448db874db5f74ef2d48d.md)  
 
 ## 面经
 [小米笔试](小米面经/小米2020校招软件开发工程师.md)  
