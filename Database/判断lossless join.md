@@ -1,5 +1,3 @@
-## 数据库判断分解的无损连接性（lossless join）
-
 
 
 关系模式 R(A,B,C,D,E) F{A->C, C->D, B->C, DE->C, CE->A}.

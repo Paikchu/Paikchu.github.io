@@ -1,4 +1,3 @@
-# 分解BCNF范式
 
 ##### Algorithm
 

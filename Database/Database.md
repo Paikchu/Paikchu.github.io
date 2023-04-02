@@ -1,3 +1,10 @@
+## 数据库范式
+[分解BCNF范式](分解BCNF范式.md)
+[分解为3NF](分解为3NF.md)
+[判断lossless join](判断lossless join.md)
+
+
+## 数据库索引
 ##### Types of Index
 + Hash Tables
   + Hashing
@@ -9,7 +16,6 @@
 
 ## B+ Tree Index
 [[B+ Tree Indexing]]
-
 
 ## Hash Index
 Hash-based indexed are best for equality selections. ==Cannot support range searches.==
@@ -28,6 +34,8 @@ Hash-based indexed are best for equality selections. ==Cannot support range sear
 [[Linear Hashing]]
 
 
+## 数据库排序
+[External merge sort algorithm](External merge sort algorithm.md)
 
-
-
+## Query Optimization
+[Query_optimization](Query_optimization.md)
