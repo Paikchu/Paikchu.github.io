@@ -39,3 +39,4 @@ Hash-based indexed are best for equality selections. ==Cannot support range sear
 
 ## Query Optimization
 [Query_optimization](Query_optimization.md)
+

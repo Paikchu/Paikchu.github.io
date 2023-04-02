@@ -2,11 +2,8 @@
 
 ## Database
 
-[Normal Form](Database/NormalForm.md)
-[Decomposition 3NF](Database/分解为3NF.md)
-[Decomposition BCNF](Database/分解BCNF范式.md)
-[Check lossless join](判断lossless%20join.md)
-[Indexing](Database/Indexing 索引.md)
+[数据库笔记](Database.md)
+
 
 ## Leetcode
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database.md"
+                "file": "index.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "30c6c64c0dbe6361",
   "lastOpenFiles": [
-    "External.md",
     "Database/Database.md",
+    "index.md",
+    "External.md",
     "Database/Sorting.md",
     "Database/External merge sort algorithm.md",
     "Database/Indexing 索引.md",
@@ -168,7 +169,6 @@
     "Database/assets/Pasted image 20230401205707.png",
     "Database/Extensible Hash Tables.md",
     "Database/NormalForm.md",
-    "index.md",
     "Database/B+ Tree Indexing.md",
     "Database/Static Hashing.md",
     "assets/IMG_394BABF82540-1.jpeg",
