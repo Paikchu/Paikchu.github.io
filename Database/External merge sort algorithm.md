@@ -17,7 +17,6 @@ Phase 2: merge the sorted sublists
 	+ 当output被填满，就将output的内容写入到disk中，初始化output page，来接收后续的写入
 ![[Pasted image 20230402100038.png]]
 在上述条件下，每个sublist有M pages的大小，sublists的总数为 B/M，B/M <= M - 1
-
 Cost: 
 + Read B blocks from disk
 + Write B blocks of the sorted sublists to disk 
@@ -25,8 +24,16 @@ Cost:
 + Total 3B
 
 当数据量特别大时，可以把数据分成大小为M(M-1)的块，对每块进行Merge sort，直到处理完所有数据。
+![[Pasted image 20230402100619.png]]Suppose the file has M blocks, 一共只有3个buffer，2个用于sublist， 1个用于output
+每个Pass的cost是M + M，一共 $log_2M$个passes。
+Pass数量为$log_nM$, n为每次合并，内存中能容纳的sublist的个数，本题中buffer大小为3，所以最多能放下2个sublist。
 
 
-![[Pasted image 20230402100619.png]]Suppose the file has M blocks, 每个Pass的cost是M + M，一共 $log_2M + 1$个passes。
+#### Cost
+M 为 内存中的buffer数量，M-1用于存放sublist，1 用于 output
+$2B(log_{M}B)$ 
+$2B(log_{M-1}\frac{B}{M}+1)$
+log均向上取整
+
 
 通常会在排序好的数据中，留下几个空位置，方便插入操作

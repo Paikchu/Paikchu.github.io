@@ -12,7 +12,7 @@ Given a relation R:
 T(R): the number of tuples in R
 P(R): the number of pages in R
 
-#### Nested Loop Join(NLJ) 暴力遍历
+#### Nested Loop Join(NLJ) 
 
 ``` python
 for tuple r in R:
@@ -23,7 +23,7 @@ for tuple r in R:
 
 Cost: $P(R) + T(R) * P(S) + OUT$
 对于R中的每条记录，整个Page(S)都需要被完整遍历一遍。把相同的输出存储到空间中。
-较小数据量的relation要放在inner loop中。
+较小数据量的relation要放在outer loop中。
 
 #### Block Nested Loop Join (BNLJ) 
 
@@ -55,7 +55,7 @@ foreach tuple r in R:
 		yield (r, s)
 ```
 
-Cost: $P(R) + (T(R) \times C)$ ，$C$ 为每次使用index查找tuple的消耗
+Cost: $P(R) + (T(R) \times C) + OUT$ ，$C$ 为每次使用index查找tuple的消耗
 
 
 #### Sort Merge Join(SMJ) ==Only equality join==
@@ -69,6 +69,25 @@ Phase 1: Sort
 Phase 2: Merge
 + Step through the two sorted tables in parallel, and yield the matching tuples.
 
+```
+do{
+	if(!mark){
+		while(r<s) r++;
+		while(s<r) s++;
+		mark = s;
+	}
+	if(r == s){
+		emit result<r, s>
+		s++;
+	}
+	else{
+		s = mark;
+		r++;
+		mark = null;
+	}
+}
+```
+
 Cost: 
 $Sort(R) + Sort(S) + Merge$
 $=2P(R) * (log_BP(R)) + 2P(S) * (log_BP(S)) + (P(R)+P(S))$
@@ -79,6 +98,7 @@ $=2P(R) * (log_BP(R)) + 2P(S) * (log_BP(S)) + (P(R)*P(S))$
 
 Phase 1: Build
 + 构建一个hash table使用hash function $h_1$ 对于join的属性。
+
 Phase 2: Probe
 + 对于另一个表使用相同的hash function $h_2$ 对于每个tuple进行哈希，映射到hash table中的某个位置，然后找匹配的tuple
 
@@ -111,7 +131,7 @@ $3(P(R) + P(S)) + OUT$
 
 
 #### Grace Hash Join
-
+R hash h1 到 一组 buckets, S hash h1 到一组buckets，然后对这两组buckets做hash 使用h2，从而避免，内存占用过大的问题，并且解决overflow的问题
 
 
 ## Optimization of Operators other than Join

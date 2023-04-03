@@ -2,7 +2,7 @@
 
 ## Database
 
-[数据库笔记](Database.md)
+[数据库笔记](Database/Database.md)
 
 
 ## Leetcode
