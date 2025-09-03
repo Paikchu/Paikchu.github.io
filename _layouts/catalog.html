@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- comment -%}
+  动态获取当前目录名称，用于过滤文章和设置标题
+  {%- endcomment -%}
+  {%- assign current_dir = page.dir | remove: '/' | remove: '\\' -%}
+  {%- if current_dir == '' -%}
+  {%- assign current_dir = 'index' -%}
+  {%- endif -%}
+
+  {%- comment -%}
+  自动设置页面标题（如果没有手动设置的话）
+  {%- endcomment -%}
+  {%- unless page.title -%}
+  {%- assign page_title = current_dir | capitalize -%}
+  {%- else -%}
+  {%- assign page_title = page.title -%}
+  {%- endunless -%}
+
+  {%- assign filtered_posts = site.posts | where_exp: "post", "post.categories contains current_dir" -%}
+
+  {%- if filtered_posts.size > 0 -%}
+  <ul class="post-list">
+    {%- for post in filtered_posts -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- else -%}
+  <p>No posts found in this category.</p>
+  {%- endif -%}
+
+</div>
