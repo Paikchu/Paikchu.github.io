@@ -11,14 +11,10 @@
             "id": "3ed89123ed96eccc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/2025-09-03-两数之和.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-09-03-两数之和"
+              "title": "New tab"
             }
           }
         ]
@@ -171,9 +167,9 @@
   },
   "active": "3ed89123ed96eccc",
   "lastOpenFiles": [
+    "Leetcode/2025-09-03-两数之和.md",
     "Network/2025-09-03-Computer-Network.md",
     "Leetcode/2025-09-03-Same-Tree.md",
-    "Leetcode/2025-09-03-两数之和.md",
     "Leetcode/2025-09-05-Symmetric-Tree.md",
     "2025-09-04.md",
     "Leetcode/2025-09-06-Binary-Tree-Level-Order-Traversal.md",
