@@ -45,3 +45,5 @@ kramdown:
 # Navigation
 header_pages:
   - about.md
+
+show_excerpts: true

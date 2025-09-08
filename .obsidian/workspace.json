@@ -169,8 +169,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "99d2055e60e50481",
+  "active": "dc94f7b936d1eaf6",
   "lastOpenFiles": [
+    "_sass/minima.scss",
+    "_sass",
+    "_site/assets/css/style.scss",
+    "assets/css/style.scss",
+    "_site/assets/css/style.css",
+    "_site/assets/css",
+    "assets/css/style.css",
+    "assets/css",
     "_posts/2025-09-08-Redis.md",
     "_posts/2025-09-08-常见缓存问题.md",
     "_site/assets/2025-09-08-Redis/image.png",
@@ -189,13 +197,8 @@
     "assets/2025-09-08-Redis",
     "_site/assets/images/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
     "_site/assets/images/2025-09-08-Redis",
-    "_site/assets/images",
     "assets/images/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
-    "assets/images/2025-09-08-Redis",
-    "_site/assets/2025-09-08-常见缓存问题",
-    "_site/assets/images/2025-09-08-常见缓存问题",
     "_posts/2025-09-03-welcome-to-jekyll.md",
-    "blog/Welcome.md",
-    "blog"
+    "blog/Welcome.md"
   ]
 }
