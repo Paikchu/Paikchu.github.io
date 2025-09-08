@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5f9ac7eb482fae00",
+        "id": "b7a6d660e64642a3",
         "type": "tabs",
         "children": [
           {
-            "id": "3ed89123ed96eccc",
+            "id": "dbf229efd321da95",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-09-08-Redis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-09-08-Redis"
             }
           }
         ]
@@ -146,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Computer_Network"
             }
+          },
+          {
+            "id": "5bf2ec970f45972e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,17 +176,45 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ed89123ed96eccc",
+  "active": "0799fee22f166544",
   "lastOpenFiles": [
-    "test/2025-09-03-welcome-to-jekyll.md",
+    "2025-09-08-常见缓存问题.md",
+    "assets/2025-09-08-常见缓存问题/image.png",
+    "assets/2025-09-08-常见缓存问题",
+    "Redis 1019563e379880d4adddf8b95558e28d/Redis6 0为什么引入多线程 23a9563e379880c9a592e64ea82d2749.md",
+    "Redis 1019563e379880d4adddf8b95558e28d",
+    "2025-09-08-Redis.md",
+    "2025-09-03-templater.md",
+    "Redis 1019563e379880d4adddf8b95558e28d/缓存穿透& 缓存击穿 & 缓存雪崩 20f9563e37988049a1b3e8c567a2e545.md",
+    "2025-09-03-welcome-to-jekyll.md",
+    "Untitled.md",
+    "2025-09-03-make-function.md",
+    "2025-09-03-kafka.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "2025-09-08-Redis-持久化.md",
+    "assets",
+    "assets/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
+    "assets/2025-09-08-Redis/image.png",
+    "assets/2025-09-08-Redis/image 9.png",
+    "assets/2025-09-08-Redis/image 8.png",
+    "assets/2025-09-08-Redis/image 7.png",
+    "assets/2025-09-08-Redis/image 6.png",
+    "assets/2025-09-08-Redis/image 5.png",
+    "assets/2025-09-08-Redis/image 4.png",
+    "assets/2025-09-08-Redis/image 3.png",
+    "assets/2025-09-08-Redis/image 2.png",
+    "assets/2025-09-08-Redis",
+    "redis",
+    "2025-09-03.md",
     "test",
-    "go/2025-09-03-make-function.md",
     "go",
     "categories/kafka.md",
-    "kafka/2025-09-03-kafka.md",
     "kafka",
     "categories/network.md",
     "categories/leetcode.md",
@@ -186,9 +228,6 @@
     "Leetcode/2025-09-03-Same-Tree.md",
     "Leetcode/2025-09-05-Symmetric-Tree.md",
     "2025-09-04.md",
-    "Leetcode/2025-09-06-Binary-Tree-Level-Order-Traversal.md",
-    "2025-09-03-make-function.md",
-    "2025-09-03-kafka.md",
-    "2025-09-03-welcome-to-jekyll.md"
+    "Leetcode/2025-09-06-Binary-Tree-Level-Order-Traversal.md"
   ]
 }
