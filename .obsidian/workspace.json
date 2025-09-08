@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "90df649fd579ca7d",
+    "id": "30d81b97dd57a217",
     "type": "split",
     "children": [
       {
-        "id": "b53e3959a9cc1ebe",
+        "id": "e1fc93e7b7e47cd3",
         "type": "tabs",
         "children": [
           {
-            "id": "091007d85b01b006",
+            "id": "99d2055e60e50481",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-09-08-Redis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-09-08-Redis"
             }
           }
         ]
@@ -23,28 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fd2eaf695b8c4498",
+    "id": "af685d0635024c10",
     "type": "split",
     "children": [
       {
-        "id": "61b8ad77b8d8d223",
+        "id": "720d6af1719105b8",
         "type": "tabs",
         "children": [
           {
-            "id": "6666b6789bf0e9bd",
+            "id": "dc94f7b936d1eaf6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "589a1d8e20f6f5e1",
+            "id": "c52cacc7e8cbcf8a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "478ef8bf98ce3f9a",
+            "id": "29f79a07d80a01fd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "5f73939a7106cd4b",
+    "id": "11b81b85caa5c15f",
     "type": "split",
     "children": [
       {
-        "id": "5c2ee3d9e8f8dc6b",
+        "id": "98312cf4965a075b",
         "type": "tabs",
         "children": [
           {
-            "id": "03e625543a3e8c5a",
+            "id": "26e2f8761b94b073",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2025-09-08-Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025-09-08-Redis"
             }
           },
           {
-            "id": "661ac8b611563541",
+            "id": "e515831726651431",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2025-09-08-Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2025-09-08-Redis"
             }
           },
           {
-            "id": "3590c1e0fac403cd",
+            "id": "baade2f6cd7bf526",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +137,18 @@
             }
           },
           {
-            "id": "199137011dd3ab5b",
+            "id": "71cb936d9e7543d9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "_posts/2025-09-08-Redis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2025-09-08-Redis"
             }
           }
         ]
@@ -162,6 +169,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "091007d85b01b006",
-  "lastOpenFiles": []
+  "active": "99d2055e60e50481",
+  "lastOpenFiles": [
+    "_posts/2025-09-03-welcome-to-jekyll.md",
+    "blog/Welcome.md",
+    "blog"
+  ]
 }

@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Computer_Network.md",
+                "file": "2025-09-08-Redis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Computer_Network"
+              "title": "Outline of 2025-09-08-Redis"
             }
           },
           {
@@ -181,17 +181,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0799fee22f166544",
+  "active": "dbf229efd321da95",
   "lastOpenFiles": [
+    "2025-09-03-welcome-to-jekyll.md",
+    "2025-09-08-Redis.md",
+    "assets/2025-09-08-Redis/image.png",
+    "assets/2025-09-08-Redis/image 1.png",
     "2025-09-08-常见缓存问题.md",
     "assets/2025-09-08-常见缓存问题/image.png",
     "assets/2025-09-08-常见缓存问题",
     "Redis 1019563e379880d4adddf8b95558e28d/Redis6 0为什么引入多线程 23a9563e379880c9a592e64ea82d2749.md",
     "Redis 1019563e379880d4adddf8b95558e28d",
-    "2025-09-08-Redis.md",
     "2025-09-03-templater.md",
     "Redis 1019563e379880d4adddf8b95558e28d/缓存穿透& 缓存击穿 & 缓存雪崩 20f9563e37988049a1b3e8c567a2e545.md",
-    "2025-09-03-welcome-to-jekyll.md",
     "Untitled.md",
     "2025-09-03-make-function.md",
     "2025-09-03-kafka.md",
@@ -200,7 +202,6 @@
     "2025-09-08-Redis-持久化.md",
     "assets",
     "assets/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
-    "assets/2025-09-08-Redis/image.png",
     "assets/2025-09-08-Redis/image 9.png",
     "assets/2025-09-08-Redis/image 8.png",
     "assets/2025-09-08-Redis/image 7.png",
@@ -208,7 +209,6 @@
     "assets/2025-09-08-Redis/image 5.png",
     "assets/2025-09-08-Redis/image 4.png",
     "assets/2025-09-08-Redis/image 3.png",
-    "assets/2025-09-08-Redis/image 2.png",
     "assets/2025-09-08-Redis",
     "redis",
     "2025-09-03.md",
