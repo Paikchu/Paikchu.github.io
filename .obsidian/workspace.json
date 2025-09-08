@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-09-08-常见缓存问题.md",
+                "file": "_posts/2025-09-08-JVM内存模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-08-常见缓存问题"
+              "title": "2025-09-08-JVM内存模型"
             }
           }
         ]
@@ -169,18 +169,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc94f7b936d1eaf6",
+  "active": "99d2055e60e50481",
   "lastOpenFiles": [
-    "_sass/minima.scss",
-    "_sass",
-    "_site/assets/css/style.scss",
-    "assets/css/style.scss",
-    "_site/assets/css/style.css",
-    "_site/assets/css",
-    "assets/css/style.css",
-    "assets/css",
     "_posts/2025-09-08-Redis.md",
+    "_posts/2025-09-08-内存泄漏和内存溢出.md",
+    "_posts/2025-09-08-JVM内存模型.md",
+    "_site/assets/2025-09-08-JVM内存模型/Untitled.png",
+    "_site/assets/2025-09-08-JVM内存模型",
+    "assets/2025-09-08-JVM内存模型/Untitled.png",
+    "assets/2025-09-08-JVM内存模型",
+    "assets/2025-09-08-常见缓存问题/Untitled",
+    "_posts/2025-09-08-JVM.md",
+    "_site/2025/09/08/JVM.html",
+    "_posts/2025-09-08-反射机制.md",
+    "_site/2025/09/08/反射机制.html",
+    "_site/2025/09/08/内存泄漏和内存溢出.html",
+    "_posts/Java字符串处理.md",
+    "_site/assets/Untitled.png",
+    "_site/2025/09/08/JVM内存模型.html",
+    "_site/2025/09/08",
+    "_site/2025/09",
+    "_site/2025",
+    "_posts/2025-09-03-make-function.md",
     "_posts/2025-09-08-常见缓存问题.md",
+    "_site/README.md",
+    "README.md",
     "_site/assets/2025-09-08-Redis/image.png",
     "_site/assets/2025-09-08-Redis/image 9.png",
     "_site/assets/2025-09-08-Redis/image 8.png",
@@ -188,15 +201,9 @@
     "_site/assets/2025-09-08-Redis/image 6.png",
     "_site/assets/2025-09-08-Redis/image 5.png",
     "_site/assets/2025-09-08-Redis/image 4.png",
-    "_site/assets/2025-09-08-Redis/image 3.png",
-    "_site/assets/2025-09-08-Redis/image 2.png",
-    "_site/assets/2025-09-08-Redis/image 15.png",
     "_site/assets/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
-    "_site/assets/2025-09-08-Redis",
     "assets/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
-    "assets/2025-09-08-Redis",
     "_site/assets/images/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
-    "_site/assets/images/2025-09-08-Redis",
     "assets/images/2025-09-08-Redis/Lettuce 2469563e3798809498d6c88927ee5743.md",
     "_posts/2025-09-03-welcome-to-jekyll.md",
     "blog/Welcome.md"
