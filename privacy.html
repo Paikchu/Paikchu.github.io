@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「燃尽了」隐私政策</title>
+<!--
+  上架前必改：
+  1. 将下方所有 REPLACE_WITH_YOUR_EMAIL 替换为真实联系邮箱（共 2 处：可见文本 + mailto 链接）
+  2. 确认提审版本是否真的调用了云端接口：
+     - 若未联网：本页内容可直接使用
+     - 若已联网（含匿名登录）：必须在「一、我们收集哪些信息」后补充
+       服务端收集的数据类别、用途与保留期限，不得写"数据不经过服务器"
+-->
+<style>
+  :root {
+    --bg: #f6f5f2;
+    --card: #ffffff;
+    --text: #1c1c1e;
+    --text-secondary: #5a5a5e;
+    --accent: #ff6a3d;
+    --border: #e6e3dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111113;
+      --card: #1c1c1e;
+      --text: #f2f2f4;
+      --text-secondary: #a0a0a6;
+      --accent: #ff7a4f;
+      --border: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 64px;
+  }
+  header {
+    padding: 16px 0 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    letter-spacing: 0.5px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin: 0;
+  }
+  .intro {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 28px;
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 32px 0 10px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  .muted { color: var(--text-secondary); }
+  ul {
+    margin: 8px 0;
+    padding-left: 22px;
+  }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-top: 12px;
+  }
+  .contact .email {
+    font-size: 17px;
+    font-weight: 600;
+    word-break: break-all;
+  }
+  strong { font-weight: 600; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>「燃尽了」隐私政策</h1>
+    <p class="updated">最后更新：2026 年 9 月</p>
+  </header>
+
+  <div class="intro">
+    「燃尽了」是一款轻断食计时工具。我们高度重视你的隐私，本政策说明本 App 如何处理你的数据。<strong>本 App 不包含广告、不售卖数据、不跨 App 追踪你。</strong>
+  </div>
+
+  <h2>一、我们收集哪些信息</h2>
+  <p>本 App <strong>不要求注册账号</strong>，不收集你的姓名、手机号、位置或联系方式。你在使用过程中产生的信息仅包括：</p>
+  <ul>
+    <li>断食开始与结束时间、进食窗口设置、连续记录与成就；</li>
+    <li>你<strong>可选填</strong>的性别、年龄、身高、体重（用于本机估算代谢与激励数字，不填不影响使用）；</li>
+    <li>你在「外卖守护」功能中<strong>自行选择</strong>的 App、类别或网站信息。</li>
+  </ul>
+  <p>以上信息均保存在你的设备本地；若你登录 iCloud 并开启 iCloud 云盘，数据会通过<strong>你个人的 iCloud（CloudKit 私有数据库）</strong>在你自己的设备之间同步。我们不拥有、也无法访问该数据库，开发者无法读取任何用户的个人数据。</p>
+
+  <h2>二、数据如何使用</h2>
+  <p>上述信息仅用于在你的设备上提供计时、提醒、统计、成就与外卖守护功能，不会用于广告画像，也不会用于任何自动化决策。</p>
+  <p>年龄、身高、体重仅用于在本机估算基础代谢与"少摄入热量"等参考数字。估算结果仅供参考，<strong>不构成医学建议</strong>。</p>
+
+  <h2>三、外卖守护（Family Controls）说明</h2>
+  <p>本功能基于 Apple Family Controls 框架，仅在你主动开启并授权后生效：</p>
+  <ul>
+    <li>你选择的 App、类别与网站信息仅保存在本机 App Group 共享容器中，<strong>不上传任何服务器，开发者无法获取</strong>；</li>
+    <li>屏蔽与解除动作全部在你的设备本地完成；</li>
+    <li>你可以随时在「外卖守护」设置中修改或清空选择、关闭该功能；关闭后相关本地数据即不再使用。</li>
+  </ul>
+  <p>本 App 不会利用此权限监控、收集或分享你的浏览或使用记录。</p>
+
+  <h2>四、通知</h2>
+  <p>窗口开闭提醒、断食节点提醒、睡前提醒与成就通知均由系统在本机调度，不经过任何服务器。你可随时在「我的 - 提醒设置」或 iOS 系统设置中关闭。</p>
+
+  <h2>五、第三方、追踪与广告</h2>
+  <ul>
+    <li>本 App 不包含广告 SDK、数据分析 SDK 或第三方追踪组件；</li>
+    <li>不会跨 App 或网站追踪你的活动（不使用广告标识符 IDFA）；</li>
+    <li>不会向任何第三方出售、出租或共享你的数据。</li>
+  </ul>
+
+  <h2>六、数据保留与删除</h2>
+  <ul>
+    <li>本地数据保留在你的设备上，直至你主动删除；</li>
+    <li>你可随时在「我的 - 系统 - 重置所有数据」中删除全部断食记录、成就与设置；</li>
+    <li>iCloud 中的数据可在 iOS「设置 → [你的名字] → iCloud → 管理账户存储」中删除；</li>
+    <li>卸载本 App 即删除其本地数据。</li>
+  </ul>
+
+  <h2>七、儿童</h2>
+  <p>本 App 面向一般成年用户，不针对 16 岁以下未成年人，且不收集任何儿童个人信息。轻断食不适合未成年人，如家长发现子女在未经指导的情况下使用，建议其停止并删除 App。</p>
+
+  <h2>八、健康与安全提示</h2>
+  <p>轻断食并不适合所有人。<strong>未成年人、孕期或哺乳期女性、有饮食失调史、低血糖、糖尿病或其他慢性疾病人群，开始前请咨询医生。</strong>如出现头晕、心悸等不适，请立即停止并进食。</p>
+
+  <h2>九、你的权利</h2>
+  <p>你对个人数据享有访问、更正、删除与撤回授权的权利，均可通过本机功能直接实现，无需联系我们。如需帮助，可通过下方邮箱联系。</p>
+
+  <h2>十、政策更新</h2>
+  <p>如本政策发生变更，我们将在本页面更新并修订"最后更新"日期。重大变更将通过 App 内提示告知。</p>
+
+  <h2>十一、联系我们</h2>
+  <div class="contact">
+    <p style="margin:0 0 6px;">如对本政策有任何疑问、意见或数据相关请求，请联系：</p>
+    <p class="email" style="margin:0;">📧 <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></p>
+  </div>
+
+  <footer>
+    本政策为通用隐私声明，不构成法律意见。如你所在司法辖区有特殊合规要求，请以当地法律为准并咨询专业人士。
+  </footer>
+</div>
+</body>
+</html>
