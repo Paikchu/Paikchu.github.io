@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「燃尽了」技术支持</title>
+<!--
+  上架前必改：
+  将下方所有 REPLACE_WITH_YOUR_EMAIL 替换为真实联系邮箱（共 2 处：可见文本 + mailto 链接）
+  建议与 privacy.html 使用同一个邮箱
+-->
+<style>
+  :root {
+    --bg: #f6f5f2;
+    --card: #ffffff;
+    --text: #1c1c1e;
+    --text-secondary: #5a5a5e;
+    --accent: #ff6a3d;
+    --border: #e6e3dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111113;
+      --card: #1c1c1e;
+      --text: #f2f2f4;
+      --text-secondary: #a0a0a6;
+      --accent: #ff7a4f;
+      --border: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 64px;
+  }
+  header {
+    padding: 16px 0 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    letter-spacing: 0.5px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 32px 0 10px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  .muted { color: var(--text-secondary); }
+  ul, ol {
+    margin: 8px 0;
+    padding-left: 22px;
+  }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 12px 0;
+  }
+  .faq {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 4px 20px;
+    margin: 12px 0;
+  }
+  .faq h3 {
+    font-size: 15px;
+    margin: 16px 0 6px;
+  }
+  .faq p {
+    margin: 0 0 16px;
+    color: var(--text-secondary);
+  }
+  .contact .email {
+    font-size: 17px;
+    font-weight: 600;
+    word-break: break-all;
+  }
+  strong { font-weight: 600; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>「燃尽了」技术支持</h1>
+    <p class="updated">轻断食计时器 · 使用帮助与问题反馈</p>
+  </header>
+
+  <div class="card contact">
+    <p style="margin:0 0 6px;">遇到问题或有任何建议，欢迎通过邮件联系我们，我们会尽快回复：</p>
+    <p class="email" style="margin:0;">📧 <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></p>
+  </div>
+
+  <h2>常见问题</h2>
+
+  <div class="faq">
+    <h3>我的断食数据保存在哪里？</h3>
+    <p>所有数据仅保存在你的 iPhone 本机。如果你登录了 iCloud 并开启 iCloud 云盘，数据会通过你个人的 iCloud 私有数据库在你自己的设备之间同步。App 不经过任何服务器，开发者无法读取你的数据。</p>
+
+    <h3>收不到断食提醒通知怎么办？</h3>
+    <p>请检查 iOS「设置 → 通知 → 燃尽了」中是否允许通知；并确认没有开启专注模式或定时静音。也可以在 App「我的 → 提醒设置」中检查各项提醒是否打开。</p>
+
+    <h3>小组件或锁屏实时活动没有显示/没有更新？</h3>
+    <p>请长按桌面进入编辑模式添加「燃尽了」小组件；实时活动需在断食进行中查看，可在「我的 → 提醒设置」中确认「实时活动」开关已打开。若仍异常，尝试重启手机或重新开始一次断食。</p>
+
+    <h3>「外卖守护」如何关闭或修改？</h3>
+    <p>进入 App「外卖守护」设置即可随时取消或更改你选择屏蔽的 App、类别与网站，也可以直接关闭整个功能。所有选择仅存于本机，关闭后即不再生效。</p>
+
+    <h3>iCloud 同步不及时？</h3>
+    <p>首次同步可能需要几分钟，请确认两台设备登录同一 Apple ID、网络正常且 iCloud 存储空间未满。未登录 iCloud 不影响 App 使用，数据会先保存在本机。</p>
+
+    <h3>如何删除我的全部数据？</h3>
+    <p>在 App 内进入「我的 → 系统 → 重置所有数据」即可删除全部断食记录、成就与设置。如需删除 iCloud 中的数据，可在 iOS「设置 → [你的名字] → iCloud → 管理账户存储」中操作。卸载 App 也会删除其本地数据。</p>
+
+    <h3>身高体重等信息必须填写吗？</h3>
+    <p>不是必填项，不填写不影响计时功能。这些信息仅用于在本机估算基础代谢等参考数字，不会上传，且估算结果仅供参考，不构成医学建议。</p>
+  </div>
+
+  <h2>健康提示</h2>
+  <div class="card">
+    <p style="margin:0;">轻断食并不适合所有人。未成年人、孕期或哺乳期女性、有饮食失调史、低血糖、糖尿病或其他慢性疾病人群，开始前请咨询医生。如出现头晕、心悸等不适，请立即停止并进食。</p>
+  </div>
+
+  <h2>系统要求</h2>
+  <div class="card">
+    <p style="margin:0;">适用于运行 iOS 26.0 或更高版本的 iPhone。</p>
+  </div>
+
+  <h2>隐私政策</h2>
+  <div class="card">
+    <p style="margin:0;"><a href="privacy.html">查看「燃尽了」隐私政策</a></p>
+  </div>
+
+  <footer>
+    「燃尽了」技术支持页面 · 最后更新：2026 年 9 月
+  </footer>
+</div>
+</body>
+</html>
